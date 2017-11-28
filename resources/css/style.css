@@ -54,18 +54,20 @@ a{
 }
 
 .column.large{
-  
-  width: 630px;
-  margin-right: 15px;
+  display: flex;
   flex-wrap: wrap;
+  width: 630px;
+  margin-right: 20px;
+  justify-content: space-between;
+
 }
 .column.medium{
   width: 300px;
-  margin: 0px 15px;
+  margin: 0px 20px;
 }
 .column.small{
   width: 240px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .story{
   font-family: Georgia;
@@ -93,10 +95,12 @@ justify-content: flex-start;
 .imagelarge.fall{
   background-image:
   url("../images/fallseason.png");
+  width: 300px;
 }
 .imagelarge.camera{
   background-image:
   url("../images/cameraman.png");
+  width: 300px;
 }
 .imagesmall{
   background-image:
@@ -110,4 +114,10 @@ justify-content: flex-start;
   color: white;
   margin: 20px auto;
   justify-content: center
+}
+.main{
+  display: block;
+}
+.column.large .story{
+  width: 300px;
 }
