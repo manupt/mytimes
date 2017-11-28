@@ -59,6 +59,7 @@ a{
   width: 630px;
   margin-right: 20px;
   justify-content: space-between;
+  align-items: baseline;
 
 }
 .column.medium{
@@ -73,6 +74,12 @@ a{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+.text span{
+  .story span{
+    font-family: Georgia;
+    font-size: 30px;
+    color: black
 }
 .imagelarge{
   display: flex;
